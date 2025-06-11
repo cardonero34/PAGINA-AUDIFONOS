@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'LATO';
+    src: url(./MULTIMEDIA/FONTS/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: 'ROBOTO';
+    src: url(./MULTIMEDIA/FONTS/roboto/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fondo-negro {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-TI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+}
+
+.imagen-audifonos {
+    width: 55%;
+}
+
+.text-cont {
+    color: aliceblue;
+}
+
+.c-product {
+    color: aliceblue;
+    font-family: 'ROBOTO';
+    font-size: 30px;
+}
+
+.name-product {
+    color: aliceblue;
+    font-family: 'LATO';
+    font-size: 100px;
+}
+
+.description {
+    color: aliceblue;
+    font-family: 'ROBOTO';
+    font-size: 16px;
+}
+
+.precio {
+    color: aliceblue;
+    font-family: 'ROBOTO';
+    font-size: 60px;
+}
