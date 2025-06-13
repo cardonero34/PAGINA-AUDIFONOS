@@ -58,7 +58,7 @@
     }
 
     .imagen-audifonos {
-      height: 60vh;
+      height: 65vh;
       width: 50%;
     }
 
@@ -132,51 +132,50 @@
 
 /* contenedores tercera parte */
 
-    .contenedor {
+    .tercera-zona {
       display: flex;
-      height: 70vh;
+      height: 80vh;
     }
 
-    .texto {
-      flex: 1;
+    .texto-info {
+      width: 50%;
       background-color: #0d76bb;
-      color: white;
-      padding: 50px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
+      gap: 50px;
     }
 
-    .texto h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
+    .contenedor-textos {
+       color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 85%;
+       gap: 50px;
     }
 
-    .texto p {
-      font-size: 16px;
-      line-height: 1.6;
+    .subtitulo-info {
+      font-family: var(--fuenteSecundaria);
+      font-size: 40px;
+    }
+
+    .descripcion-info{
+      font-family: var(--fuentePrincipal);
+      font-size: 20px;
+      line-height: ;
     }
 
     .imagen {
-      flex: 1;
+        width: 50%;
+      
     }
 
-    .imagen img {
+    .girl-audifono1 {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      display: block;
     }
 
-    @media (max-width: 768px) {
-      .contenedor {
-        flex-direction: column;
-      }
-
-      .imagen img {
-        height: auto;
-      }
-    }
 
 /* contenedores cuarta parte */
 
