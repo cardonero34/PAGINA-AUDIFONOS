@@ -163,7 +163,7 @@
     .descripcion-info{
       font-family: var(--fuentePrincipal);
       font-size: 20px;
-      line-height: ;
+      line-height: 1.7;
     }
 
     .imagen {
@@ -183,25 +183,30 @@
       text-align: center;
       font-size: 36px;
       color: #00a870;
-      margin: 40px 0 30px;
       font-weight: bold;
+    }
+
+    .cont-fondo-4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
     }
 
     .contenedor {
       display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 30px;
-      padding: 0 30px 60px;
+      justify-content: space-between;
       flex-wrap: wrap;
+      gap: 30px;
+      width: 90vw;
+      background-color: #b89d9d;
     }
 
     .columna-izquierda {
       display: flex;
       flex-direction: column;
-      gap: 20px;
-      flex: 1;
-      min-width: 300px;
+      gap: 30px;
+      width: 45%;
     }
 
     .producto {
@@ -232,16 +237,19 @@
 
     .producto-destacado {
       background-color: #0d76bb;
-      color: white;
-      border-radius: 20px;
-      padding: 30px;
-      flex: 1;
-      min-width: 300px;
+      border-radius: 20px;   
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
-      text-align: center;
+      width: 45%;
+    }
+
+    .texto-PD{
+      display: flex;
+      flex-direction: column;
+      color: white;
+
     }
 
     .producto-destacado h3 {
