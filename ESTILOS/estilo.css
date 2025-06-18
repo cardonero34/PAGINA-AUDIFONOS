@@ -102,8 +102,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 51vh;
-      gap: 40px;
+      height: 55vh;
+      gap: 30px;
     }
 
     .item {
@@ -142,17 +142,20 @@
       background-color: #0d76bb;
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: end;
       gap: 50px;
+      padding-right: 1rem;
     }
 
     .contenedor-textos {
-       color: white;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 85%;
-       gap: 50px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 86%;
+      gap: 50px;
+      padding-right: 1rem;
+      margin-left: -1rem;
     }
 
     .subtitulo-info {
@@ -163,7 +166,7 @@
     .descripcion-info{
       font-family: var(--fuentePrincipal);
       font-size: 20px;
-      line-height: 1.7;
+      line-height: 2;
     }
 
     .imagen {
