@@ -64,7 +64,7 @@
 
 .texto-cont {
   height: 60vh;
-  width: 55%;
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -109,25 +109,30 @@
 .item {
   text-align: center;
   width: 380px;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
 
-.item img {
-  width: 50px;
-  height: 50px;
-}
 
-.item h3 {
-  color: var(--primario);
-  font-family: var(--fuenteSecundaria);
-  font-size: 28px;
-  margin: 25px;
-}
+  img {
+    width: 50px;
+    height: 50px;
+  }
 
-.item p {
-  color: var(--negro);
-  line-height: 1.5;
-  font-size: 16px;
-  font-family: var(--fuentePrincipal);
+  h3 {
+    color: var(--primario);
+    font-family: var(--fuenteSecundaria);
+    font-size: 28px;
+  }
+
+  p {
+    color: var(--negro);
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: var(--fuentePrincipal);
+  }
 }
 
 /* contenedores tercera parte */
@@ -141,7 +146,6 @@
   width: 50%;
   background-color: #0d76bb;
   display: flex;
-  flex-direction: row;
   justify-content: end;
   gap: 50px;
   padding-right: 1rem;
@@ -202,7 +206,7 @@
   justify-content: center;
   flex-direction: row;
   gap: 40px;
-  width: 90vw;
+  width: 90%;
 }
 
 .columna-izquierda {
@@ -351,7 +355,7 @@
   width: 100%;
 }
 
-.cont-form-email{
+.cont-form-email {
   width: 100%;
   background-color: #9bb9cf;
   display: flex;
@@ -364,7 +368,7 @@
   padding: 0.5rem;
   font-size: 100%;
   width: 100%;
-  
+
 
 }
 
