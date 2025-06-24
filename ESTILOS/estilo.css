@@ -41,7 +41,7 @@
 /* encabezado primera parte */
 
 .fondo-negro {
-  width: 100%;
+
   height: 100vh;
   background-color: var(--negro);
   display: flex;
@@ -54,16 +54,13 @@
   justify-content: space-between;
   flex-direction: row;
   width: 90%;
-  height: 65vh;
 }
 
 .imagen-audifonos {
-  height: 60vh;
   width: 50%;
 }
 
 .texto-cont {
-  height: 60vh;
   width: 55%;
   display: flex;
   justify-content: center;
@@ -108,7 +105,7 @@
 
 .item {
   text-align: center;
-  width: 380px;
+  width: 29%;
 }
 
 .item img {
@@ -141,7 +138,6 @@
   width: 50%;
   background-color: #0d76bb;
   display: flex;
-  flex-direction: row;
   justify-content: end;
   gap: 50px;
   padding-right: 1rem;
@@ -202,7 +198,7 @@
   justify-content: center;
   flex-direction: row;
   gap: 40px;
-  width: 90vw;
+  width: 90%;
 }
 
 .columna-izquierda {
@@ -296,6 +292,7 @@
 .quinta-zona {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 76vh;
 }
 
@@ -309,12 +306,11 @@
 }
 
 .cont-right-5 {
-  width: 50%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  left: 1.5rem;
+
 }
 
 .cont-form-dates {
@@ -351,7 +347,7 @@
   width: 100%;
 }
 
-.cont-form-email{
+.cont-form-email {
   width: 100%;
   background-color: #9bb9cf;
   display: flex;
@@ -364,7 +360,7 @@
   padding: 0.5rem;
   font-size: 100%;
   width: 100%;
-  
+
 
 }
 
@@ -393,3 +389,133 @@
   font-size: 20px;
   color: var(--primario);
 }
+
+/* resposive desing */
+
+@media screen and (max-width: 960px) {
+
+  .cuarta-zona {
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .contenedor-type-audifonos {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .columna-izquierda {
+    width: 100%;
+  }
+
+  .producto-destacado {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    width: 100%;
+
+    img {
+      width: 150px;
+    }
+
+    h3 {
+      font-size: 24px;
+      font-family: var(--fuenteSecundaria);
+      font-weight: bold;
+      height: 75px;
+    }
+
+    p {
+      font-size: 40px;
+      font-family: var(--fuentePrincipal2);
+      font-weight: bold;
+      height: 75px;
+    }
+  }
+
+  .segunda-zona {
+    height: 65vh;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .fondo-negro {
+    height: 170vh;
+
+    .cont-TI {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .imagen-audifonos {
+        width: 100%;
+      }
+
+      .texto-cont {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+
+  .segunda-zona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    gap: 30px;
+
+    .item {
+      width: 90%;
+    }
+  }
+
+  .tercera-zona {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 120vh;
+
+    .texto-info {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      padding-right: 0;
+    }
+
+    .imagen {
+      width: 100%;
+      height: 50%;
+      background-position: top right;
+
+    }
+
+
+  }
+
+  .quinta-zona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    .imagen-5 {
+      height: 50%;
+      width: 100%;
+      background-size: 100%;
+      background-position: 0rem 0rem;
+    }
+
+    .cont-right-5 {
+      height: 50%;
+      width: 100%;
+      align-items: center;
+    }
+
+  }
